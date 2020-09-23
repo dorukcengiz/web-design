@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+@media (max-width: 420px) {
+  html {
+    font-size: 75%;
+  }
+}
+/***************header**************/
+#header {
+  text-align: center;
+  padding: 7rem 4rem;
+  background-image: url("./images/download.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#header h1 {
+  color: white;
+  margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+  #header h1 {
+    font-size: 1.5rem;
+  }
+}
+#header h5 {
+  color: white;
+  margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+  #header h5 {
+    font-size: 1rem;
+  }
+}
+#header button {
+  background-color: #cb4d46;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 0.3rem;
+  font-size: 0.5rem;
+}
+/***************section-faith**************/
+#faith {
+  padding: 3rem 4rem;
+  text-align: center;
+}
+.info {
+  display: flex;
+  margin-top: 2rem;
+}
+@media (max-width: 768px) {
+  .info {
+    display: block;
+  }
+}
+.infocontent {
+  padding: 1rem 1rem;
+}
+.fas {
+  color: #cb4d46;
+  font-size: 1.5rem;
+}
+.infocontent h2 {
+  font-size: 1rem;
+  margin: 1rem 1rem;
+}
+/*****************section-church************/
+#church {
+  background-color: #cb4d46;
+  color: white;
+  padding: 1rem 4rem;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  #church {
+    display: block;
+    text-align: center;
+  }
+}
+.info-church {
+  padding: 0.1rem 2rem;
+}
+.info-church h1 {
+  font-size: 1rem;
+}
+@media (max-width: 768px) {
+  .info-church h1 {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+  .info-church p {
+    font-size: 0.6rem;
+    margin-bottom: 0.5rem;
+  }
+}
+.info-church button {
+  background-color: transparent;
+  width: 120px;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid white;
+  color: white;
+  border-radius: 4px;
+}
+@media (max-width: 768px) {
+  .info-church button {
+    width: 80px;
+    font-size: 0.5rem;
+    padding: 0.2rem 0.9rem;
+  }
+}
+/*****************section-adress************/
+#adress {
+  text-align: center;
+  display: flex;
+  padding: 2.5rem 5rem;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  #adress {
+    display: block;
+  }
+}
+.time {
+  display: flex;
+  justify-content: center;
+  margin-left: 5rem;
+  background-color: #cb4d46;
+  padding: 4rem 1rem;
+  color: white;
+}
+.time_item {
+  margin-left: 2rem;
+}
+@media (max-width: 768px) {
+  .time {
+    margin-left: 0;
+    padding: 2rem 0.5rem;
+  }
+}
+.info-adress {
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .info-adress {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+#event {
+  padding: 3rem 4rem;
+  text-align: center;
+}
+.event_wrapper {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .event_wrapper {
+    display: block;
+  }
+}
